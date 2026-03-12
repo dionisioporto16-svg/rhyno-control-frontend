@@ -29,6 +29,8 @@ import { motion, AnimatePresence } from "motion/react";
 import { format } from "date-fns";
 import { ptBR } from "date-fns/locale";
 
+const API_URL = "https://rhyno-control-backend-production.up.railway.app/";
+
 const OPERACOES: Record<string, string[]> = {
   "SANTA FÉ DO SUL": ["domingos neto", "domingos ferrantes", "rogerio molina", "rogerio"],
   "ARARAQUARA": ["alexandra luzia", "kelly cristina", "valquiria da silva", "carlos alberto"],
